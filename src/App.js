@@ -15,7 +15,7 @@ const Boton = styled.button`
     background-size: 300px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem 3rem;
     font-size: 2rem;
     border: 2px solid black;
@@ -38,7 +38,7 @@ function App() {
             <Frase
                 frase={frase}
             />
-            
+
             <Boton onClick={consultarAPI}>
                 Obtener Frase
             </Boton>
